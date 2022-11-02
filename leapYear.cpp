@@ -25,7 +25,7 @@ int main() {
             std::cout << "Invalid year";
         } else {
             if (intYear % 4 == 0 || intYear % 400 == 0) {
-                if (intYear % 100 == 0 and intYear % 400 != 0) {
+                if (intYear % 100 == 0 && intYear % 400 != 0) {
                     std::cout << "This is not a leap year";
                 } else {
                     std::cout << "This is a leap year.";
